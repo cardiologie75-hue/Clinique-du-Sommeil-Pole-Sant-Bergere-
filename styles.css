@@ -49,3 +49,8 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
   .grid-2,.cards{grid-template-columns:1fr}
   .hero h1{font-size:32px}
 }
+#equipe .cards { grid-template-columns: 1fr 1fr 1fr; gap: 24px; }
+#equipe .card h3 { margin-top: 0; }
+@media (max-width: 900px){
+  #equipe .cards { grid-template-columns: 1fr; }
+}
