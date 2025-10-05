@@ -19,7 +19,7 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
 
 .site-header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eef2f7;z-index:10}
 .header-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
-.logo{height:192px;width:auto;border-radius:8px}
+.logo{height:144px;width:auto;border-radius:8px}
 .main-nav a{margin-left:18px;text-decoration:none;color:var(--fg);font-weight:600}
 .main-nav a:hover{color:var(--primary)}
 
